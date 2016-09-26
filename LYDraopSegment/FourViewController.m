@@ -1,28 +1,22 @@
 //
-//  FirstViewController.m
+//  FourViewController.m
 //  LYDraopSegment
 //
 //  Created by apple on 16/9/26.
 //  Copyright © 2016年 雷晏. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FourViewController.h"
 
-@interface FirstViewController ()
+@interface FourViewController ()
 
 @end
 
-@implementation FirstViewController
-//-(instancetype)init{
-//    if(self = [super init]){
-//        self.view.backgroundColor = [UIColor magentaColor];
-//    }
-//    return self;
-//}
+@implementation FourViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"啦啦");
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

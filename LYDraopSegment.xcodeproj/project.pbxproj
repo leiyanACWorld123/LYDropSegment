@@ -17,6 +17,22 @@
 		18EE20541D99174F006514FE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20531D99174F006514FE /* FirstViewController.m */; };
 		18EE20571D991759006514FE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20561D991759006514FE /* SecondViewController.m */; };
 		18EE205A1D991769006514FE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20591D991769006514FE /* ThirdViewController.m */; };
+		18EE205C1D9953CC006514FE /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE205B1D9953CB006514FE /* FirstViewController.xib */; };
+		18EE205E1D995494006514FE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE205D1D995494006514FE /* SecondViewController.xib */; };
+		18EE20601D9954B7006514FE /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE205F1D9954B7006514FE /* ThirdViewController.xib */; };
+		18EE20651D9957D0006514FE /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20631D9957D0006514FE /* FourViewController.m */; };
+		18EE20661D9957D0006514FE /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE20641D9957D0006514FE /* FourViewController.xib */; };
+		18EE206A1D9957DA006514FE /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20681D9957DA006514FE /* SixViewController.m */; };
+		18EE206B1D9957DA006514FE /* SixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE20691D9957DA006514FE /* SixViewController.xib */; };
+		18EE206F1D9957E5006514FE /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE206D1D9957E5006514FE /* SevenViewController.m */; };
+		18EE20701D9957E5006514FE /* SevenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE206E1D9957E5006514FE /* SevenViewController.xib */; };
+		18EE20741D9957F8006514FE /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20721D9957F8006514FE /* FiveViewController.m */; };
+		18EE20751D9957F8006514FE /* FiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE20731D9957F8006514FE /* FiveViewController.xib */; };
+		18EE20781D995CF4006514FE /* LYLineDropSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20771D995CF4006514FE /* LYLineDropSegment.m */; };
+		18EE207B1D995E91006514FE /* LYDropSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE207A1D995E91006514FE /* LYDropSegment.m */; };
+		18EE207F1D996E02006514FE /* LYHollowDropSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE207E1D996E02006514FE /* LYHollowDropSegment.m */; };
+		18EE20831D998564006514FE /* EightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE20811D998564006514FE /* EightViewController.m */; };
+		18EE20841D998564006514FE /* EightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EE20821D998564006514FE /* EightViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +55,32 @@
 		18EE20561D991759006514FE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		18EE20581D991769006514FE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		18EE20591D991769006514FE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		18EE205B1D9953CB006514FE /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		18EE205D1D995494006514FE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		18EE205F1D9954B7006514FE /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		18EE20621D9957D0006514FE /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		18EE20631D9957D0006514FE /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		18EE20641D9957D0006514FE /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		18EE20671D9957DA006514FE /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		18EE20681D9957DA006514FE /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		18EE20691D9957DA006514FE /* SixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixViewController.xib; sourceTree = "<group>"; };
+		18EE206C1D9957E5006514FE /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		18EE206D1D9957E5006514FE /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		18EE206E1D9957E5006514FE /* SevenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SevenViewController.xib; sourceTree = "<group>"; };
+		18EE20711D9957F8006514FE /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		18EE20721D9957F8006514FE /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		18EE20731D9957F8006514FE /* FiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveViewController.xib; sourceTree = "<group>"; };
+		18EE20761D995CF4006514FE /* LYLineDropSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLineDropSegment.h; sourceTree = "<group>"; };
+		18EE20771D995CF4006514FE /* LYLineDropSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLineDropSegment.m; sourceTree = "<group>"; };
+		18EE20791D995E91006514FE /* LYDropSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDropSegment.h; sourceTree = "<group>"; };
+		18EE207A1D995E91006514FE /* LYDropSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDropSegment.m; sourceTree = "<group>"; };
+		18EE207C1D996094006514FE /* LYContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYContants.h; sourceTree = "<group>"; };
+		18EE207D1D996E02006514FE /* LYHollowDropSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHollowDropSegment.h; sourceTree = "<group>"; };
+		18EE207E1D996E02006514FE /* LYHollowDropSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHollowDropSegment.m; sourceTree = "<group>"; };
+		18EE20801D998564006514FE /* EightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EightViewController.h; sourceTree = "<group>"; };
+		18EE20811D998564006514FE /* EightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EightViewController.m; sourceTree = "<group>"; };
+		18EE20821D998564006514FE /* EightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EightViewController.xib; sourceTree = "<group>"; };
+		18EE20851D9991C1006514FE /* LYCustomAndLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCustomAndLineProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,16 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				18EE204D1D990EBD006514FE /* Segment */,
-				18EE20391D990E9E006514FE /* AppDelegate.h */,
-				18EE203A1D990E9E006514FE /* AppDelegate.m */,
+				18EE20611D99578C006514FE /* example */,
 				18EE203C1D990E9E006514FE /* ViewController.h */,
 				18EE203D1D990E9E006514FE /* ViewController.m */,
-				18EE20521D99174F006514FE /* FirstViewController.h */,
-				18EE20531D99174F006514FE /* FirstViewController.m */,
-				18EE20551D991759006514FE /* SecondViewController.h */,
-				18EE20561D991759006514FE /* SecondViewController.m */,
-				18EE20581D991769006514FE /* ThirdViewController.h */,
-				18EE20591D991769006514FE /* ThirdViewController.m */,
+				18EE20391D990E9E006514FE /* AppDelegate.h */,
+				18EE203A1D990E9E006514FE /* AppDelegate.m */,
 				18EE203F1D990E9E006514FE /* Main.storyboard */,
 				18EE20421D990E9E006514FE /* Assets.xcassets */,
 				18EE20441D990E9E006514FE /* LaunchScreen.storyboard */,
@@ -102,11 +139,50 @@
 		18EE204D1D990EBD006514FE /* Segment */ = {
 			isa = PBXGroup;
 			children = (
+				18EE207C1D996094006514FE /* LYContants.h */,
 				18EE20511D991075006514FE /* LYDropSeg.h */,
+				18EE20851D9991C1006514FE /* LYCustomAndLineProtocol.h */,
+				18EE20791D995E91006514FE /* LYDropSegment.h */,
+				18EE207A1D995E91006514FE /* LYDropSegment.m */,
 				18EE204E1D990F36006514FE /* LYCustomDropSegment.h */,
 				18EE204F1D990F36006514FE /* LYCustomDropSegment.m */,
+				18EE20761D995CF4006514FE /* LYLineDropSegment.h */,
+				18EE20771D995CF4006514FE /* LYLineDropSegment.m */,
+				18EE207D1D996E02006514FE /* LYHollowDropSegment.h */,
+				18EE207E1D996E02006514FE /* LYHollowDropSegment.m */,
 			);
 			path = Segment;
+			sourceTree = "<group>";
+		};
+		18EE20611D99578C006514FE /* example */ = {
+			isa = PBXGroup;
+			children = (
+				18EE20521D99174F006514FE /* FirstViewController.h */,
+				18EE20531D99174F006514FE /* FirstViewController.m */,
+				18EE205B1D9953CB006514FE /* FirstViewController.xib */,
+				18EE20551D991759006514FE /* SecondViewController.h */,
+				18EE20561D991759006514FE /* SecondViewController.m */,
+				18EE205D1D995494006514FE /* SecondViewController.xib */,
+				18EE20581D991769006514FE /* ThirdViewController.h */,
+				18EE20591D991769006514FE /* ThirdViewController.m */,
+				18EE205F1D9954B7006514FE /* ThirdViewController.xib */,
+				18EE20621D9957D0006514FE /* FourViewController.h */,
+				18EE20631D9957D0006514FE /* FourViewController.m */,
+				18EE20641D9957D0006514FE /* FourViewController.xib */,
+				18EE20711D9957F8006514FE /* FiveViewController.h */,
+				18EE20721D9957F8006514FE /* FiveViewController.m */,
+				18EE20731D9957F8006514FE /* FiveViewController.xib */,
+				18EE20671D9957DA006514FE /* SixViewController.h */,
+				18EE20681D9957DA006514FE /* SixViewController.m */,
+				18EE20691D9957DA006514FE /* SixViewController.xib */,
+				18EE206C1D9957E5006514FE /* SevenViewController.h */,
+				18EE206D1D9957E5006514FE /* SevenViewController.m */,
+				18EE206E1D9957E5006514FE /* SevenViewController.xib */,
+				18EE20801D998564006514FE /* EightViewController.h */,
+				18EE20811D998564006514FE /* EightViewController.m */,
+				18EE20821D998564006514FE /* EightViewController.xib */,
+			);
+			name = example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +243,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EE20661D9957D0006514FE /* FourViewController.xib in Resources */,
+				18EE206B1D9957DA006514FE /* SixViewController.xib in Resources */,
 				18EE20461D990E9E006514FE /* LaunchScreen.storyboard in Resources */,
 				18EE20431D990E9E006514FE /* Assets.xcassets in Resources */,
+				18EE20601D9954B7006514FE /* ThirdViewController.xib in Resources */,
 				18EE20411D990E9E006514FE /* Main.storyboard in Resources */,
+				18EE20841D998564006514FE /* EightViewController.xib in Resources */,
+				18EE20751D9957F8006514FE /* FiveViewController.xib in Resources */,
+				18EE205C1D9953CC006514FE /* FirstViewController.xib in Resources */,
+				18EE205E1D995494006514FE /* SecondViewController.xib in Resources */,
+				18EE20701D9957E5006514FE /* SevenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,10 +265,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EE20571D991759006514FE /* SecondViewController.m in Sources */,
+				18EE206A1D9957DA006514FE /* SixViewController.m in Sources */,
 				18EE20501D990F36006514FE /* LYCustomDropSegment.m in Sources */,
+				18EE20781D995CF4006514FE /* LYLineDropSegment.m in Sources */,
+				18EE20651D9957D0006514FE /* FourViewController.m in Sources */,
+				18EE207B1D995E91006514FE /* LYDropSegment.m in Sources */,
 				18EE203E1D990E9E006514FE /* ViewController.m in Sources */,
 				18EE20541D99174F006514FE /* FirstViewController.m in Sources */,
+				18EE20831D998564006514FE /* EightViewController.m in Sources */,
+				18EE207F1D996E02006514FE /* LYHollowDropSegment.m in Sources */,
+				18EE206F1D9957E5006514FE /* SevenViewController.m in Sources */,
 				18EE203B1D990E9E006514FE /* AppDelegate.m in Sources */,
+				18EE20741D9957F8006514FE /* FiveViewController.m in Sources */,
 				18EE20381D990E9E006514FE /* main.m in Sources */,
 				18EE205A1D991769006514FE /* ThirdViewController.m in Sources */,
 			);
@@ -341,6 +433,7 @@
 				18EE204C1D990E9E006514FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

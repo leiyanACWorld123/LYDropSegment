@@ -1,28 +1,22 @@
 //
-//  FirstViewController.m
+//  FiveViewController.m
 //  LYDraopSegment
 //
 //  Created by apple on 16/9/26.
 //  Copyright © 2016年 雷晏. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FiveViewController.h"
 
-@interface FirstViewController ()
+@interface FiveViewController ()
 
 @end
 
-@implementation FirstViewController
-//-(instancetype)init{
-//    if(self = [super init]){
-//        self.view.backgroundColor = [UIColor magentaColor];
-//    }
-//    return self;
-//}
+@implementation FiveViewController
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"啦啦");
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

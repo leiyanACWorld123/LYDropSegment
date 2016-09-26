@@ -9,6 +9,10 @@
 #ifndef LYDropSeg_h
 #define LYDropSeg_h
 
+#define kTopTitleHeight 40
+#define kTopTitleWidth 80
+#define kTopLineHeight 2
+
 #define kScreenWidth          [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight         [UIScreen mainScreen].bounds.size.height
 

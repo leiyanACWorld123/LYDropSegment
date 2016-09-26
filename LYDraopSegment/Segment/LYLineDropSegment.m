@@ -1,23 +1,23 @@
 //
-//  LYCustomDropSegment.m
+//  LYLineDropSegment.m
 //  LYDraopSegment
 //
 //  Created by apple on 16/9/26.
 //  Copyright © 2016年 雷晏. All rights reserved.
 //
 
-#import "LYCustomDropSegment.h"
-@interface LYCustomDropSegment()
+#import "LYLineDropSegment.h"
+
+@interface LYLineDropSegment()
 {
-    
+    UIView *_lineView;
 }
 @end
-@implementation LYCustomDropSegment
+@implementation LYLineDropSegment
 
 -(void)setViewControllers:(NSArray<UIViewController *> *)viewControllers{
-    
     [super setViewControllers:viewControllers];
-       
+
     [viewControllers enumerateObjectsUsingBlock:^(UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [_superVC addChildViewController:obj];
         UIButton *titleBtn = [[UIButton alloc]initWithFrame:CGRectMake(idx*_titleWidth, 0, _titleWidth, kTopTitleHeight)];
@@ -28,27 +28,30 @@
         [titleBtn setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
         [_topTitleScrollView addSubview:titleBtn];
         [titleBtn addTarget:self action:@selector(clickChange:) forControlEvents:UIControlEventTouchUpInside];
-    
-        [self.buttons addObject:titleBtn];
+        
+        
     }];
     
-    //默认显示第0个子控制器
+    _lineView = [[UIView alloc]init];
+    _lineView.backgroundColor = [UIColor redColor];
+    [_topTitleScrollView addSubview:_lineView];
+    _lineView.frame = CGRectMake(0, kTopTitleHeight-kTopLineHeight, kTopTitleWidth, kTopLineHeight);
+
+    
     [self scrollViewDidEndScrollingAnimation:_dropScrollView];
+
 }
 
 
-
-/**
- 点击切换子控制器
- */
 -(void)clickChange:(UIButton *)btn{
     [super clickChangeVC:btn];
 }
 
 -(void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
     [super scrollViewDidEndScrollingAnimation:scrollView];
-    
     NSInteger index = scrollView.contentOffset.x / kScreenWidth;
+//    [self changeCurrentSelectObj:index];
+    
     UIButton *button = _topTitleScrollView.subviews[index];
     CGFloat topOffsetX = _topTitleScrollView.contentOffset.x;
     topOffsetX = button.center.x - kScreenWidth/2;
@@ -58,8 +61,10 @@
     if(topOffsetX > _topTitleScrollView.contentSize.width - kScreenWidth) topOffsetX = _topTitleScrollView.contentSize.width - kScreenWidth;
     
     [_topTitleScrollView setContentOffset:CGPointMake(topOffsetX, 0) animated:YES];
-    
-//    [self changeCurrentSelectObj:index];
+
+    [UIView animateWithDuration:0.35 animations:^{
+        _lineView.frame = CGRectMake(index*_titleWidth, kTopTitleHeight-kTopLineHeight, kTopTitleWidth, kTopLineHeight);
+    }];
 }
 
 //-(void)changeCurrentSelectObj:(NSInteger)index{
@@ -83,6 +88,7 @@
 //    }
 //}
 
+
 #pragma mark Set
 -(void)setFontSize:(CGFloat)fontSize{
     [_topTitleScrollView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
@@ -92,4 +98,9 @@
         }
     }];
 }
+
+-(void)setLineColor:(UIColor *)lineColor{
+    _lineView.backgroundColor = lineColor;
+}
+
 @end

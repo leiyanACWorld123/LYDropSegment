@@ -3,16 +3,14 @@
 //  LYDraopSegment
 /*
  *
- *   普通版
+ *   普通样式
  *
  ****/
 
-#import <UIKit/UIKit.h>
+#import "LYDropSegment.h"
+#import "LYCustomAndLineProtocol.h"
 
-@interface LYCustomDropSegment : UIView
+@interface LYCustomDropSegment : LYDropSegment<LYCustomAndLineProtocol>
 
-+(instancetype)dropSegmentWithSuperVC:(UIViewController *)superVC;
-
-@property (nonatomic,strong) NSArray<UIViewController *> *viewControllers;
 
 @end

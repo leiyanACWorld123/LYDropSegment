@@ -13,14 +13,16 @@
 @end
 
 @implementation ThirdViewController
--(instancetype)init{
-    if(self = [super init]){
-        self.view.backgroundColor = [UIColor yellowColor];
-    }
-    return self;
-}
+//-(instancetype)init{
+//    if(self = [super init]){
+//        self.view.backgroundColor = [UIColor yellowColor];
+//    }
+//    return self;
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"德玛");
+
     // Do any additional setup after loading the view.
 }
 

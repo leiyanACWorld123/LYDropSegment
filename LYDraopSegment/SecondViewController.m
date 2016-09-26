@@ -13,14 +13,16 @@
 @end
 
 @implementation SecondViewController
--(instancetype)init{
-    if(self = [super init]){
-        self.view.backgroundColor = [UIColor redColor];
-    }
-    return self;
-}
+//-(instancetype)init{
+//    if(self = [super init]){
+//        self.view.backgroundColor = [UIColor redColor];
+//    }
+//    return self;
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"卧槽");
+
     // Do any additional setup after loading the view.
 }
 
